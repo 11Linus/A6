@@ -22,7 +22,7 @@ export default function MainNav() {
     const expandToggle = () => {
       setIsExpanded(!isExpanded);
     }
-    let token = readToken():
+    let token = readToken();
     function logout() {
       setIsExpanded(false);
       removeToken();
