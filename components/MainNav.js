@@ -22,9 +22,9 @@ export default function MainNav() {
         router.push(`/artwork?title=true&q=${route}`)
         setSearchHistory(await addToHistory(`title=true&q=${searchField}`)) 
     }
-    const expandToggle = () => {
-      setIsExpanded(!isExpanded);
-    }
+    //const expandToggle = () => {
+    //  setIsExpanded(!isExpanded);
+    //}
     let token = readToken();
     function logout() {
       setIsExpanded(false);

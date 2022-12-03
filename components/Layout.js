@@ -11,5 +11,5 @@ export default function Layout(props) {
             </Container>
         <br />
      </>
-    )
+    );
   }
